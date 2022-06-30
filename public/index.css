@@ -1,0 +1,87 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header p {
+   color: white;
+   font-family: 'Trebuchet MS', sans-serif;
+}
+
+.list {
+    align-items: center;
+    margin-top: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40%;
+}
+
+.menu {
+    height: 130px;
+    width: 700px;
+    border: 7px double black;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    height: 28px;
+    font-size: 24px;
+    border: 1px solid blueviolet;
+}
+
+button {
+    height: 37px;
+    width: 90px;
+    position: relative;
+    top: -4px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 20px;
+}
+
+.plans {
+    height: 540px;
+    width: 700px;
+    border: 7px double black;    
+    margin-top: 10px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.element {
+    height: 100px;
+    width: 680px;
+    border: 2px solid black;    
+    margin-top: 10px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats p {
+    font-size: 24px;
+}
